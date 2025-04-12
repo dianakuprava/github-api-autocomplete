@@ -1,0 +1,85 @@
+body {
+    font-family: "Roboto Light", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 661px;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text-field {
+    margin: 62px auto 0;
+    box-sizing: border-box;
+    padding-left: 13px;
+    padding-top: 5px;
+    height: 61px;
+    width: 500px;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: left;
+    border: none;
+}
+
+.autocomplete {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto 60px;
+    padding: 0;
+    width: 500px;
+    list-style: none;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: left;
+}
+
+.autocomplete li {
+    margin: 0;
+    padding: 0;
+    padding-left: 13px;
+    border: 2px solid #000000;
+    height: 44px;
+    background-color: #E3E3E3;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.autocomplete li:hover {
+    background-color: #65CDF9;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto 60px;
+    padding: 0;
+    width: 500px;
+    list-style: none;
+    font-size: 30px;
+    line-height: 100%;
+    cursor: pointer;
+}
+
+.result li {
+    padding: 8px 17px 8px 16px;
+    position: relative;
+    border: 1px solid #000000;
+    font-size: 24px;
+    background-color: #E27BEB;
+    line-height: 100%;
+}
+
+.close-button {
+    width: 46px;
+    height: 42px;
+    position: absolute;
+    top: 25%;
+    right: 34px;
+    background-image: url('img/Vector 3.svg'), url('img/Vector 8.svg');
+}
